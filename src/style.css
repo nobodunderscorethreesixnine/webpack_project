@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url('../image/pic.jpg');
+    background-repeat: no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+p{
+    color: red;
+    font-size:larger
+}
+
