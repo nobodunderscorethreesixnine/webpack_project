@@ -13,8 +13,23 @@
     <button id="btn">Click me</button>
     <img src="../image/pic.jpg" alt="pic">
 
-    <img  alt="img" id="img"><!-- this img is added by js -->
+    <img  alt="" id="img"><!-- this img is added by js -->
+    <p>
+        this code below is recommended or standarzied code, u should do this way
+        "scripts": {
+            "build": "webpack --config webpack.prod.js",
+            "predev": "echo 'Starting server'",
+            "dev": "webpack serve --config webpack.dev.js",
+            "deploy": "git subtree push --prefix dist origin gh-pages"
+          }
+          but u can also do like this
+          "scripts": {
+            "build": "webpack --mode production",
+            "predev": "echo 'Starting server'",
+            "dev": "webpack serve",
+            "deploy": "git subtree push --prefix dist origin gh-pages"
+          }
+          this is i learn from this article -> https://www.upgrad.com/blog/introduction-to-package-json-scripts-in-node-js/
+    </p>
 </body>
 </html>
-
-solve the empty src of img and change the file path for css and run webpack
