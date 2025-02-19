@@ -1,3 +1,5 @@
+// note this file is actually my webpack.config.js which include below code
+// i kept for refrence only , this file doesn't do anything.
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
